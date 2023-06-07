@@ -58,7 +58,7 @@ function addnote(items) {
     addTodoMutation.mutate(items)
   }
   
-  }
+  };
 return (
     <Modal {...props} aria-labelledby="contained-modal-title-vcenter" >
       <Container>
@@ -84,7 +84,7 @@ return (
                 onChecked={deleteItem}
                 
             />
-          ))}
+          ))};
           </Row>
         
       </Modal.Body>
