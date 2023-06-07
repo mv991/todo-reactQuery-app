@@ -13,8 +13,8 @@ import './Modal.css';
 
 
 function ModalComponent(p){
-const  MydModalWithGrid = (props) => {   
-const [items, setItems] = useState([]);
+  const [items, setItems] = useState([]);
+  const [modalShow, setModalShow] = useState(false);
 
 function addItem(title) {
   if(!title){alert("Please add a todo");}
@@ -59,6 +59,8 @@ function addnote(items) {
   }
   
   };
+const  MydModalWithGrid = (props) => {   
+
 return (
     <Modal {...props} aria-labelledby="contained-modal-title-vcenter" >
       <Container>
@@ -94,11 +96,7 @@ return (
       </Container>
     </Modal>
   );
-  }
-
-
-
-const [modalShow, setModalShow] = useState(false);
+            }
 return (
    <div className='addButton'>
     
