@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/todo-reactQuery-app/static/css/main.c7dc5ace.css",
+    "main.js": "/todo-reactQuery-app/static/js/main.93848d62.js",
+    "index.html": "/todo-reactQuery-app/index.html",
+    "main.c7dc5ace.css.map": "/todo-reactQuery-app/static/css/main.c7dc5ace.css.map",
+    "main.93848d62.js.map": "/todo-reactQuery-app/static/js/main.93848d62.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7dc5ace.css",
+    "static/js/main.93848d62.js"
+  ]
+}
