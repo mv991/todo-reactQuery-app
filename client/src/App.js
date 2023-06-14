@@ -12,7 +12,7 @@ function App() {
     queryKey: ['todos'],
     queryFn: () =>
       axios
-        .get("http://localhost:8000")
+        .get("https://todo-app-react-580d.onrender.com/")
         .then((res) => res.data),
   },);
   
