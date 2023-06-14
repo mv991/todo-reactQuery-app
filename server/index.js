@@ -11,7 +11,9 @@ const app = express();
 
 app.use(bodyParser.json({limit: "30mb", extended : true}));
 app.use(bodyParser.urlencoded({limit: "30mb", extended: true}));
-app.use(cors());
+app.use(cors({
+    origin: '*'
+}));
 app.use(methodOverride('X-HTTP-Method-Override'))
 const MONGODB_PASSWORD = process.env.MONGODB_PASSWORD;
 mongoose.set('strictQuery',false)
