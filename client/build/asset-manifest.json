@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/todo-reactQuery-app/static/css/main.c7dc5ace.css",
-    "main.js": "/todo-reactQuery-app/static/js/main.93848d62.js",
+    "main.js": "/todo-reactQuery-app/static/js/main.925bf9a7.js",
     "index.html": "/todo-reactQuery-app/index.html",
     "main.c7dc5ace.css.map": "/todo-reactQuery-app/static/css/main.c7dc5ace.css.map",
-    "main.93848d62.js.map": "/todo-reactQuery-app/static/js/main.93848d62.js.map"
+    "main.925bf9a7.js.map": "/todo-reactQuery-app/static/js/main.925bf9a7.js.map"
   },
   "entrypoints": [
     "static/css/main.c7dc5ace.css",
-    "static/js/main.93848d62.js"
+    "static/js/main.925bf9a7.js"
   ]
 }
