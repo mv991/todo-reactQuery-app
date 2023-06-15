@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://mv991.github.io/todo-reactQuery-app/client/build",
+  "homepage": "https://todo-app-frontend-42s6.onrender.com",
   "dependencies": {
     "@emotion/react": "^11.10.8",
     "@emotion/styled": "^11.10.8",
