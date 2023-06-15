@@ -13,7 +13,7 @@ function App() {
     queryFn: () =>
       axios
         .get("https://todo-app-react-580d.onrender.com/")
-        .then((res) => res.data),
+        .then((res) => console.log(res.data, "DATA") ),
   },);
   
   if (isLoading) {  
