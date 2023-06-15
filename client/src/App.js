@@ -13,16 +13,17 @@ function App() {
     queryFn: () =>
       axios
         .get("https://todo-app-react-580d.onrender.com/")
-        .then((res) => console.log(res.data, "DATA") ),
+        .then((res) => res.data)
   },);
   
   if (isLoading) {  
   return (
-    <div className="position-absolute bottom-50 end-50">
-    <div className="spinner-border" role="status">
-      <span className="visually-hidden">Loading...</span>
-    </div>
-  </div>
+    <h1>Loading..</h1>
+  //   <Container position-absolute bottom-50 end-50>
+  //   <div className="spinner-border" role="status">
+  //     <span className="visually-hidden">Loading...</span>
+  //   </div>
+  // </Container>
   )
   }
   

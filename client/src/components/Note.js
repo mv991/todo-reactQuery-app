@@ -72,8 +72,8 @@ const handleDelete = (id) => {
 
   return (
     <div className="note">
-      {  props.note.map((item) => {
-        return <ul> <li style = {{textDecoration:item.completed?"line-through":"none"}}  onClick={() => {handleClick(item,props.id)}} key={item._id} >{item.title} </li></ul>
+      {  props.note.map((item,index) => {
+        return <ul id={index}> <li style = {{textDecoration:item.completed?"line-through":"none"}}  onClick={() => {handleClick(item,props.id)}} key={item._id} >{item.title} </li></ul>
       })}
       <button disabled = {props.id?false:true} onClick={() => {handleDelete(props.id)}}><DeleteIcon /></button>
     </div>
