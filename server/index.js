@@ -5,7 +5,7 @@ import Note from './NoteSchema.js';
 import mongoose from 'mongoose';
 import methodOverride from 'method-override'
 import 'dotenv/config';
-import { configDotenv } from 'dotenv';
+
 
 const app = express();
 
